@@ -1,0 +1,10 @@
+.action-column button:nth-child(1){
+    margin-right: 12px;
+}
+.add-wrapper{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    margin-top: 20px;
+    
+}
