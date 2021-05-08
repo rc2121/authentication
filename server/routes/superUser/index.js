@@ -23,8 +23,9 @@ router.post('/sign-in', async (req, res) => {
     try {
         const data = await SuperUser.findOne({email: email, password: password });
         if (data) {
-            res.status(200).json({ id: data._id });
+            return res.status(200).json({ id: data._id });
         }
+        return res.status(401).send({msg: 'login failed'})
     } catch (error) {
         res.send('Error in signin with this user:' + error);
     }

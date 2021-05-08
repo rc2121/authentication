@@ -8,3 +8,12 @@
     margin-top: 20px;
     
 }
+.spinner-border{
+    margin-left: 50%;
+    margin-top: 250px;
+}
+.user-table-wrapper {
+    display: flex;
+    padding: 0px 72px 0px 72px;
+    flex-direction: column;
+}

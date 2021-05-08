@@ -3,3 +3,7 @@
     justify-content: flex-end;
     margin-right: 10px;
 }
+
+a {
+    margin-left: 8px;
+}
